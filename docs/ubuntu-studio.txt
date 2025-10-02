@@ -1,0 +1,79 @@
+
+# An inventory of the stuff included in Ubuntu Studio.
+#   [x] means it's included in this provisioning module.
+
+Effects
+  flatpak
+    [x] Carla
+  apt
+    [x] Rakarrack (guitar effects)
+    [x] guitarix (virtual amp)
+    [x] zita-rev1 (reverb effect)
+    [x] zita-at1 (autotune)
+
+Instruments
+  flatpak
+  apt
+    [x] Aeolus (synth pipe organ)
+    [x] Yoshimi (synth)
+    [x] Hexter (Yamaha DS7)
+    [x] PHASEX (synth)
+    [x] ZynAddSubFX (synth)
+
+Midi Utilities
+  flatpak
+    [x] Bespoke Synth (modular synthesizer)
+    [x] Helvum (graphical patchbay)
+    [x] qpwgraph (PipeWire graph manager)
+    [x] Qsynth (FluidSynth frontend)
+  apt
+    [x] Gmidimonitor (displays MIDI events)
+    [x] QMidiArp (MIDI arpeggiator)
+    [x] QmidiNet (sends/receives MIDI data over the network)
+    [x] Qmidiroute (MIDI router/event processor)
+  no flatpak
+    [ ] JACK Keyboard
+    [ ] QjackCtl
+    [ ] mcpdisp (mackie control protocol display messages)
+    [ ] mcpdisp-ext
+
+Mixers and Card Controls
+  flatpak
+    [x] Mixxx (DJ mixing)
+  no flatpak
+    [ ] Echomixer (preamp???)
+    [ ] FFADO (FireWire support)
+    [ ] Mudita24 (sound card channel mixer)
+  unknown
+    [ ] HDAJackRetask
+    [ ] HDSPConf
+    [ ] HDSPMixer
+    [ ] Jack Mixer
+    [ ] QasConfig (ALSA setup debugger/viewer)
+    [ ] QasHCtl (ALSA software collection)
+    [ ] QasMixer (ALSA mixer)
+    [ ] Rmedigicontrol
+    [ ] Ubuntu Studio Audio Configuration
+
+Other
+  flatpak
+    [x] FMIT (tuner)
+    [x] Hydrogen (drum machine)
+    [x] Kid3-qt (audio tag editor)
+    [x] LMMS (DAW)
+    [x] MuseScore 3 (score editor)
+    [x] PureData (Pd) (visual programming language for music)
+    [x] Qtractor (DAW)
+  apt
+    [x] Zita-mu1 (configure stero monitoring)
+    [ ] Meterbridge (audio meters for JACK)
+    [x] DGEdit (drum gizmo)
+    [x] Fluidsynth DSSI
+    [x] SooperLooper (live looping sampler)
+    [x] setBfree (Synth)
+  deb
+    [ ] Geonkick (percussion synth) -  https://geonkick.org
+  source?
+    [ ] Envy24 Control
+
+
