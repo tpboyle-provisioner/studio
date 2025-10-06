@@ -6,7 +6,8 @@ daws_are_provisioned () {
   flatpak_ensure_packages_are_installed flathub \
     org.atheme.audacious \
     org.ardour.Ardour \
-    fm.reaper.Reaper \
+    org.hydrogenmusic.Hydrogen \
+    io.lmms.LMMS \
     org.rncbc.qtractor \
-    io.lmms.LMMS
+    fm.reaper.Reaper
 }

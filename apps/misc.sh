@@ -12,7 +12,6 @@ miscellaneous_tools_are_provisioned () {
     zita-mu1
   flatpak_ensure_packages_are_installed flathub \
     io.github.gillesdegottex.FMIT \
-    org.hydrogenmusic.Hydrogen \
     org.kde.kid3 \
     org.musescore.MuseScore \
     info.puredata.Pd \
