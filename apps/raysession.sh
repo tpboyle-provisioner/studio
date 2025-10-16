@@ -5,6 +5,7 @@ source "src/packages/apt/packages.sh"
 RAYSESSION_URL="https://github.com/Houston4444/RaySession.git"
 RAYSESSION_SRC_PATH="/usr/local/src/raysession"
 RAYSESSION_BIN_PATH="/usr/local/bin/raysession"
+RAYSESSION_RELEASE_TAG="v0.14.4"
 
 raysession_is_provisioned () {
   if ! raysession_is_installed; then
@@ -20,6 +21,7 @@ install_raysession () {
   build_dependencies_are_installed
   git clone "$RAYSESSION_URL" "$RAYSESSION_SRC_PATH"
   cd "$RAYSESSION_SRC_PATH"
+  git checkout "$RAYSESSION_RELEASE_TAG"
   git submodule update --init
   make
   sudo make install
@@ -34,9 +36,7 @@ build_dependencies_are_installed () {
     qtchooser \
     qttools5-dev-tools \
     python3-liblo \
-    python3-pyliblo \
     python3-pyqt5.qtsvg \
     python3-jack-client \
-    python3-legacy-cgi \
     python3-tk
 }
