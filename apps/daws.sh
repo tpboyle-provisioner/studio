@@ -1,13 +1,12 @@
 #!/bin/bash
 
-source "src/packages/flatpak.sh"
+source "src/packages/apt/packages.sh"
 
 daws_are_provisioned () {
-  flatpak_ensure_packages_are_installed flathub \
-    org.atheme.audacious \
-    org.ardour.Ardour \
-    org.hydrogenmusic.Hydrogen \
-    io.lmms.LMMS \
-    org.rncbc.qtractor \
-    fm.reaper.Reaper
+  apt_ensure_packages_are_installed \
+    audacious \
+    ardour \
+    lmms \
+    hydrogen \
+    qtractor
 }

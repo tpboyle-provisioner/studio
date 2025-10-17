@@ -23,9 +23,9 @@ Instruments
 Midi Utilities
   flatpak
     [x] Bespoke Synth (modular synthesizer)
-    [x] Helvum (graphical patchbay)
-    [x] qpwgraph (PipeWire graph manager)
-    [x] Qsynth (FluidSynth frontend)
+    [ ] Helvum (graphical patchbay)
+    [ ] qpwgraph (PipeWire graph manager)
+    [ ] Qsynth (FluidSynth frontend)
   apt
     [x] Gmidimonitor (displays MIDI events)
     [x] QMidiArp (MIDI arpeggiator)
@@ -59,10 +59,10 @@ Other
   flatpak
     [x] FMIT (tuner)
     [x] Hydrogen (drum machine)
-    [x] Kid3-qt (audio tag editor)
+    [ ] Kid3-qt (audio tag editor)
     [x] LMMS (DAW)
     [x] MuseScore 3 (score editor)
-    [x] PureData (Pd) (visual programming language for music)
+    [ ] PureData (Pd) (visual programming language for music)
     [x] Qtractor (DAW)
   apt
     [x] Zita-mu1 (configure stero monitoring)

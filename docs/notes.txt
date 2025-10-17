@@ -1,0 +1,13 @@
+
+behind
+  hydrogen (1.2.2 apt vs 1.2.6 GitHub)
+  qTractor (1.5.4 apt vs 1.5.8 GitHub)
+  yoshimi (2.3.1 apt vs 2.3.5.1 GitHub)
+  !! MuseScore (3.2.3 apt vs 4.6.2 GitHub)
+  Mixxx (2.5.0 apt vs 2.5.3 GitHub)
+
+no apt available
+  BespokeSynth
+    deb, source
+  qsynth
+    QT frontend for fluidsynth
